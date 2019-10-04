@@ -6,7 +6,7 @@
          (* 3 (f (- n 3))))))
 
 ; using lexical scope not to have to pass n around
-(define (f-iter n)
+(define (f n)
   (define (iter a b c counter)
     (cond ((< n 3) n)
           ((= counter (- n 1)) c)
