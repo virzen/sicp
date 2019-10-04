@@ -1,5 +1,3 @@
-(define (>= a b) (or (> a b) (= a b)))
-
 (define (f-recursive n)
   (if (< n 3) 
       n
